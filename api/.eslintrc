@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "import/prefer-default-export": 0,
+    "max-len": [ "warn",
+      {
+        "code": 120
+      }
+    ],
+  },
+  "env": {
+    "jest": true,
+    "es6": true,
+  },
+  "parser": "babel-eslint"
+}
